@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información sobre Computación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            color: #0056b3;
+        }
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Introducción a la Computación</h1>
+        
+        <div class="section">
+            <h2>Definiciones</h2>
+            <h3>Computadora</h3>
+            <p>Una computadora es un dispositivo electrónico capaz de procesar datos y realizar operaciones aritméticas y lógicas siguiendo instrucciones almacenadas en su memoria. Su objetivo principal es resolver problemas de manera rápida y precisa, automatizando tareas a través de la ejecución de programas.</p>
+
+            <h3>Digital vs. Analógico</h3>
+            <ul>
+                <li><strong>Digital:</strong> Se refiere a sistemas que procesan información en valores discretos o finitos. La información se representa en formas binarias (ceros y unos) o en niveles discretos específicos.</li>
+                <li><strong>Analógico:</strong> Trata con información continua. Los sistemas analógicos procesan señales que pueden tomar cualquier valor dentro de un rango continuo.</li>
+            </ul>
+
+            <h3>Digital Binario vs. Digital Multinivel</h3>
+            <ul>
+                <li><strong>Digital Binario:</strong> La información se representa usando dos estados o niveles discretos: 0 y 1.</li>
+                <li><strong>Digital Multinivel:</strong> La información se representa con más de dos niveles discretos, por ejemplo, con cuatro niveles (00, 01, 10, 11).</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Diagrama en Bloques de un Computador</h2>
+            <p>La arquitectura de Von Neumann, también conocida como arquitectura de programa almacenado, es la base de la mayoría de las computadoras modernas. Los componentes clave son:</p>
+            <ul>
+                <li><strong>Unidad Central de Procesamiento (CPU):</strong> Realiza cálculos y controla el flujo de datos dentro de la computadora.
+                    <ul>
+                        <li><strong>Unidad de Control (CU):</strong> Interpreta y ejecuta las instrucciones del programa.</li>
+                        <li><strong>Unidad Aritmética-Lógica (ALU):</strong> Realiza operaciones matemáticas y lógicas.</li>
+                        <li><strong>Registros:</strong> Pequeñas memorias dentro de la CPU para almacenar datos temporales y direcciones.</li>
+                    </ul>
+                </li>
+                <li><strong>Memoria Principal (RAM):</strong> Almacena tanto instrucciones como datos que la CPU necesita de manera inmediata.</li>
+                <li><strong>Dispositivos de Entrada/Salida (I/O):</strong> Permiten la interacción con el usuario o con otros sistemas.</li>
+                <li><strong>Bus de Datos:</strong> Canales de comunicación que transportan datos entre la CPU, la memoria y los dispositivos de I/O.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Conceptos de "Instrucciones" y "Datos"</h2>
+            <p><strong>Instrucciones:</strong> Son comandos que la CPU ejecuta para realizar operaciones específicas, como sumar dos números, mover datos, o saltar a otra parte del programa.</p>
+            <p><strong>Datos:</strong> Son los valores que se procesan y manipulan a través de las instrucciones. Pueden ser números, caracteres, o cualquier tipo de información que la computadora maneje.</p>
+        </div>
+
+        <div class="section">
+            <h2>Tipos de Programas</h2>
+            <ul>
+                <li><strong>Programa Almacenado:</strong> Un programa que se guarda en la memoria principal y se ejecuta desde allí.</li>
+                <li><strong>Programa Cargado:</strong> Un programa que se carga en la memoria antes de ser ejecutado.</li>
+                <li><strong>Programa Hardcodeado:</strong> Un programa que está integrado directamente en el hardware, como en los microcontroladores o sistemas embebidos.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Breve Historia de la Computación</h2>
+            <ul>
+                <li><strong>Computación Mecánica:</strong> Inicios con dispositivos como el ábaco y las primeras calculadoras mecánicas (Ej: Máquina de Pascal).</li>
+                <li><strong>Computadoras de Relés:</strong> Usaban interruptores electromagnéticos para representar datos y realizar cálculos. Ejemplo: Zuse Z3 (1941).</li>
+                <li><strong>Válvulas de Vacío:</strong> Primeras computadoras electrónicas que usaban válvulas para procesar información. Ejemplo: ENIAC (1945).</li>
+                <li><strong>Transistores:</strong> Reemplazaron a las válvulas, permitiendo computadoras más pequeñas, rápidas y eficientes. Ejemplo: IBM 7090 (1959).</li>
+                <li><strong>Circuitos Integrados:</strong> Integran múltiples transistores en un solo chip, permitiendo la miniaturización de computadoras. Ejemplo: microprocesadores como el Intel 4004 (1971).</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Ley de Moore</h2>
+            <p>La Ley de Moore es una observación hecha por Gordon Moore en 1965, que predice que el número de transistores en un chip se duplicará aproximadamente cada dos años, lo que conduce a un aumento exponencial en el poder de procesamiento de las computadoras. Aunque originalmente era una observación, ha servido como una guía para el desarrollo de hardware en la industria de la computación.</p>
+            <p><strong>Ejemplos de la Ley de Moore:</strong></p>
+            <ul>
+                <li>En 1971, el microprocesador Intel 4004 tenía 2,300 transistores.</li>
+                <li>En 2020, los microprocesadores modernos contienen miles de millones de transistores, como el Apple M1, con 16 mil millones de transistores.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
